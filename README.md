@@ -5,11 +5,11 @@
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contributions](#contributions)
-  - [Test Instructions](#test instructions)
+  - [Test Instructions](#testinstructions)
   - [License Info](#license)
-  - [Author Info](#author info)
+  - [Author Info](#authorinfo)
   - [GitHub](#GitHub)
-  - [Email Info](#email address)
+  - [Email Info](#emailaddress)
 
 
 
