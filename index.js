@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer")
 const fs = require("fs")
+const generateMarkdown = require("./utils/generateMarkdown")
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -61,6 +62,11 @@ function init() {
     inquirer.prompt(questions)
     .then(response => {
         console.log(response)
+        fs.writeFileSync("README.md",generateMarkdown(response),function(err){
+            if(err)
+            console.log(err)
+        })
+        console.log("Markdown complete")
     })
 }
 
